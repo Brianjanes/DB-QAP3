@@ -1,0 +1,38 @@
+/* components/Button.css */
+.button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.add {
+  background-color: #22c55e;
+}
+
+.add:hover:not(:disabled) {
+  background-color: #16a34a;
+}
+
+.update {
+  background-color: #3b82f6;
+}
+
+.update:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+.delete {
+  background-color: #ef4444;
+}
+
+.delete:hover:not(:disabled) {
+  background-color: #dc2626;
+}
